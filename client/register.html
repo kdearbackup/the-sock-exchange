@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <script src="javascript/register.js" defer></script>
+</head>
+
+<body>
+    <h2> Register</h2>
+    <form onsubmit="event.preventDefault();">
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name">
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <input id="loginButton" type="submit" class="btn btn-primary" value="Submit"/>
+        <div id="message"></div>
+    </form>
+</body>
+
+</html>
